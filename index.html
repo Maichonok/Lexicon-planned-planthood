@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planned-planthood</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="banner.css" />
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="content.css" />
+
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Maven+Pro&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#planer">Planer</a></li>
+          <li><a href="#historik">Historik</a></li>
+          <li><a href="#tips">Tips</a></li>
+          <li><a href="#loggaut">Logga ut</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="centered">
+          <img class="logo" src="./assets/Logo.svg" />
+          <h1 class="text">Mina sidor</h1>
+        </div>
+      </div>
+      <h2 class="header_form">Lägg till ny plantering:</h2>
+      <div class="form">
+        <form>
+          <label for="planta">Planta:</label>
+          <input
+            type="text"
+            id="planta"
+            name="planta"
+            placeholder="Your plant..."
+          />
+          <label for="date">Datum:</label>
+          <input type="date" id="date" name="datum" />
+          <input type="submit" value="LÄGG TILL" />
+        </form>
+      </div>
+      <div class="content">
+        <h3 class="header_content">Dina planerade planteringar:</h3>
+        <ul class="items">
+            <li></li>
+
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>

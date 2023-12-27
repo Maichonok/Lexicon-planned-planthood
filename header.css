@@ -1,0 +1,28 @@
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: Maven Pro;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  margin: 40px auto;
+}
+
+nav {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+
+  list-style-type: none;
+  gap: 1em;
+}
+
+li {
+  display: inline;
+}
