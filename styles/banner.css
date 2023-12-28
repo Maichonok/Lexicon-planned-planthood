@@ -4,7 +4,9 @@
   text-align: center;
   width: 100%;
   min-height: 100vh;
-  margin-bottom: 2em
+  margin-bottom: 2em;
+  object-fit: cover;
+  display: block;
 }
 
 .centered {
@@ -12,10 +14,15 @@
   font-family: Maven Pro;
   font-size: 40px;
   font-weight: 500;
-  line-height: 47px;
-  letter-spacing: 0em;
+  line-height: 2em;
   color: #fff;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 760px) {
+  .centered {
+    font-size: 26px;
+  }
 }

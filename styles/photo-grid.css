@@ -1,7 +1,7 @@
 .photo-grid {
   background-color: #9e6d52;
   padding: 20px;
-  margin: 0;
+  margin: 0 0 20px;
 }
 
 .photo-grid__list {
@@ -10,7 +10,7 @@
   grid-gap: 16px;
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   justify-content: center;
 }
 

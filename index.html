@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/content.css" />
     <link rel="stylesheet" href="./styles/cards.css" />
     <link rel="stylesheet" href="./styles/photo-grid.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,7 +20,7 @@
     />
   </head>
   <body>
-    <header>
+    <header id="top">
       <nav>
         <ul>
           <li><a href="#planer">Planer</a></li>
@@ -37,18 +38,13 @@
         </div>
       </div>
       <h2 class="header_form">Lägg till ny plantering:</h2>
-        <form>
-          <label for="planta">Planta</label>
-          <input
-            type="text"
-            id="planta"
-            name="planta"
-            placeholder="Your plant..."
-          />
-          <label for="date">Datum</label>
-          <input type="date" id="date" name="datum" />
-          <button type="submit">LÄGG TILL</button>
-        </form>
+      <form>
+        <label for="planta">Planta</label>
+        <input type="text" id="planta" name="planta" />
+        <label for="date">Datum</label>
+        <input type="date" id="date" name="datum" />
+        <button type="submit" class="submit">LÄGG TILL</button>
+      </form>
       <div class="content">
         <h3 class="header_content">Dina planerade planteringar:</h3>
         <section class="cards">
@@ -108,5 +104,8 @@
         </ul>
       </section>
     </main>
+    <footer>
+      <a href="#top" class="top">Till toppen av sidan</a>
+    </footer>
   </body>
 </html>

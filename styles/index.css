@@ -4,4 +4,15 @@
   padding: 0;
 }
 
+a:link,
+a:visited {
+  color: #055647;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 
+a:hover,
+a:active {
+  color: #182522;
+}
