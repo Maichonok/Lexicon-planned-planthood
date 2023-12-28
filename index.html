@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Planned-planthood</title>
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="header.css" />
-    <link rel="stylesheet" href="banner.css" />
-    <link rel="stylesheet" href="form.css" />
-    <link rel="stylesheet" href="content.css" />
-
-    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/banner.css" />
+    <link rel="stylesheet" href="./styles/form.css" />
+    <link rel="stylesheet" href="./styles/content.css" />
+    <link rel="stylesheet" href="./styles/cards.css" />
+    <link rel="stylesheet" href="./styles/photo-grid.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,31 +33,80 @@
       <div class="container">
         <div class="centered">
           <img class="logo" src="./assets/Logo.svg" />
-          <h1 class="text">Mina sidor</h1>
+          <h1 class="header">Mina sidor</h1>
         </div>
       </div>
       <h2 class="header_form">Lägg till ny plantering:</h2>
-      <div class="form">
         <form>
-          <label for="planta">Planta:</label>
+          <label for="planta">Planta</label>
           <input
             type="text"
             id="planta"
             name="planta"
             placeholder="Your plant..."
           />
-          <label for="date">Datum:</label>
+          <label for="date">Datum</label>
           <input type="date" id="date" name="datum" />
-          <input type="submit" value="LÄGG TILL" />
+          <button type="submit">LÄGG TILL</button>
         </form>
-      </div>
       <div class="content">
         <h3 class="header_content">Dina planerade planteringar:</h3>
-        <ul class="items">
-            <li></li>
+        <section class="cards">
+          <article class="card">
+            <figure>
+              <img src="./assets/gurka.png" alt="Gurka" />
+              <figcaption>Gurka</figcaption>
+              <p class="data">15 april 2024</p>
+            </figure>
+            <div class="basket">
+              <p class="text">Rico Coolio</p>
+              <button class="btn">ta bort</button>
+            </div>
+          </article>
+        </section>
+        <h3 class="header_content">Dina planerade planteringar:</h3>
+        <section class="cards">
+          <article class="card">
+            <figure>
+              <img src="./assets/gurka.png" alt="Gurka" />
+              <figcaption>Gurka</figcaption>
+              <p class="data">15 april 2024</p>
+            </figure>
+            <div class="basket">
+              <p class="text">Rico Coolio</p>
+              <button class="btn">ta bort</button>
+            </div>
+          </article>
 
-        </ul>
+          <article class="card">
+            <figure>
+              <img src="./assets/gurka.png" alt="Gurka" />
+              <figcaption>Gurka</figcaption>
+              <p class="data">15 april 2024</p>
+            </figure>
+            <div class="basket">
+              <p class="name_plant">Rico Coolio</p>
+              <button class="btn">ta bort</button>
+            </div>
+          </article>
+        </section>
       </div>
+      <section class="photo-grid" aria-label="Gallery">
+        <ul class="photo-grid__list">
+          <li class="photo-grid__item">
+            <img class="photo-grid__image" src="./assets/pic1.png" alt="" />
+          </li>
+          <li class="photo-grid__item">
+            <img class="photo-grid__image" src="./assets/pic2.png" alt="" />
+          </li>
+          <li class="photo-grid__item">
+            <img class="photo-grid__image" src="./assets/pic3.png" alt="" />
+          </li>
+          <li class="photo-grid__item">
+            <img class="photo-grid__image" src="./assets/pic4.png" alt="" />
+          </li>
+        </ul>
+      </section>
     </main>
   </body>
 </html>
