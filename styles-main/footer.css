@@ -1,0 +1,23 @@
+footer {
+  background-image: url(../assets/banner.png);
+  font-family: Maven Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50%;
+}
+
+.header_footer {
+  font-family: Maven Pro;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 75px;
+  text-align: center;
+}

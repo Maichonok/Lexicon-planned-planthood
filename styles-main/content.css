@@ -1,0 +1,45 @@
+.header {
+  font-family: Maven Pro;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+  text-align: center;
+  color: #0a846e;
+  text-transform: uppercase;
+}
+
+.seed {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  background-color: #0a846e;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  gap: 2em;
+  margin: 20px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.description_header {
+  font-family: Open Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+}
+
+.description_text {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}

@@ -1,0 +1,83 @@
+.header_cards {
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 4rem 0;
+}
+
+.card {
+  width: 300px;
+}
+
+.card figure img {
+  width: 100%;
+}
+
+figure {
+  margin-bottom: 1rem;
+}
+
+figcaption {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.data {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+.card .btn {
+  border-radius: 9px;
+  border: none;
+  padding: 5px 25px;
+  font-family: Open Sans;
+  background: #b93857;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.card figure {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card .basket {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.text {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
