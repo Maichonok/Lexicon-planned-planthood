@@ -1,0 +1,18 @@
+.top:link,
+.top:visited {
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.top:hover,
+.top:active {
+  color: #182522;
+}
