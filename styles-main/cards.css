@@ -81,3 +81,22 @@ figcaption {
   line-height: 19px;
   letter-spacing: 0em;
 }
+
+.alla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(10, 132, 110, 1);
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  width: 25%;
+  padding: 12px 15px;
+  margin: 0 auto;
+}
+

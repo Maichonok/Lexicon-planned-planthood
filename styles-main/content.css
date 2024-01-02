@@ -13,13 +13,21 @@
   width: 300px;
   height: 300px;
   background-color: #0a846e;
+  margin: 50px;
 }
 
 .content {
   display: flex;
   justify-content: space-around;
   gap: 2em;
-  margin: 20px;
+  /* margin: 20px; */
+  position: relative;
+  margin: 0 auto;
+}
+
+.content-1 {
+  display: flex;
+  position: relative;
 }
 
 .description {
@@ -34,6 +42,7 @@
   font-weight: 700;
   line-height: 44px;
   text-align: left;
+  padding: 0 50px;
 }
 
 .description_text {
@@ -42,4 +51,44 @@
   font-weight: 400;
   line-height: 22px;
   text-align: left;
+  padding: 50px;
 }
+
+.tips {
+  position: absolute;
+  top: 80%;
+  right: 10%;
+  background: rgba(10, 132, 110, 1);
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  width: 25%;
+  padding: 12px 15px;
+}
+
+.season {
+  margin: 0 auto;
+}
+
+.plantor {
+  position: absolute;
+  left: 4%;
+  bottom:15%;
+  background: rgba(10, 132, 110, 1);
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  width: 25%;
+  padding: 12px 15px;
+}
+
