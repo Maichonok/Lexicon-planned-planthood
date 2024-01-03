@@ -12,14 +12,19 @@
   gap: 2rem;
   flex-wrap: wrap;
   margin: 4rem 0;
+  flex: 1 33.3%;
 }
 
 .card {
-  width: 300px;
+  width: 400px;
+  box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 20px;
 }
 
 .card figure img {
   width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
 
 figure {
@@ -99,4 +104,3 @@ figcaption {
   padding: 12px 15px;
   margin: 0 auto;
 }
-
